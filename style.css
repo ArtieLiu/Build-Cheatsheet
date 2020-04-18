@@ -1,0 +1,39 @@
+h1{
+    height: 130px;
+    text-align: center;
+
+    font-family: "helvetica-black";
+    font-size: 100px;
+    color:whitesmoke;
+
+    background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ");
+    background-size: auto;
+    
+}
+
+body{
+    font-family: "helvetica";
+
+}
+
+
+
+footer,
+nav p a{
+    font-family: "times new roman";
+    font-size: larger;
+    color:#cb0159;
+}
+
+
+nav,article,footer{
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
