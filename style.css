@@ -1,4 +1,16 @@
+body{
+    margin: 0 0;
+    padding: 0 auto;
+}
+
+
 h1{
+
+    padding: 0.5em 0 0.2em 0;
+    border: 0 0;
+    margin: 0 auto;
+
+
     height: 130px;
     text-align: center;
 
@@ -6,23 +18,23 @@ h1{
     font-size: 100px;
     color:whitesmoke;
 
-    background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ");
-    background-size: auto;
+    /* background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"); */
+    /* background-size: auto; */
+    
+    background-color: lightslategrey;
     
 }
 
 body{
     font-family: "helvetica";
-
 }
 
-
-
-footer,
 nav p a{
-    font-family: "times new roman";
+    font-family: Georgia;
     font-size: larger;
-    color:#cb0159;
+    color:#778899;
+
+    padding: 0 2em 0 0;
 }
 
 
@@ -36,4 +48,10 @@ nav,article,footer{
 ul{
     list-style-type: square;
     list-style-position: inside;
+}
+
+footer{
+    font-family: Georgia;
+    font-size: larger;
+    color:#778899;
 }
